@@ -3,6 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
+import male from "../../Assets/Projects/hero-1.c081bcff664751bf4f02-CjxkYEUr.jpg";
+import movies from "../../Assets/Projects/2024-09-28 (3).png";
+import market from "../../Assets/Projects/2024-09-28 (11).png";
+import cart from "../../Assets/Projects/2024-09-28 (12).png";
+import currency_converter from "../../Assets/Projects/2024-09-28 (13).png";
+import translator from "../../Assets/Projects/2024-09-28 (14).png";
+import male_fashion from "../../Assets/Projects/2024-09-28 (15).png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -23,68 +30,85 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={male_fashion}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Male Fashion"
+              description=" I used into this project u React, Tailwind , CSS, and Tailwind Elements,
+all website is responsive .This project revolves around selling clothing and everything related to
+personal apparel. It features user registration, allowing customers to
+login and store their information for a quicker and more seamless experience during future visits."
+              ghLink="https://github.com/Amir-017/project-1"
+              demoLink="https://project-1-one-beta.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={movies}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Movies"
+              description=" Using (Html , Css , Redux , Redux ToolKit , Tailwind , Material Tailwind ,
+React Icons )
+• This project offers a comprehensive collection of movies and series,
+complete with all the details imaginable, ensuring users have access to
+rich information and an enjoyable viewing experience."
+              ghLink="https://github.com/Amir-017/Movies"
+              demoLink="https://movies-two-dun.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={market}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Market"
+              description=" Using (Html , Css , react , Tailwind , Material Tailwind , React Icons)
+•This project encompasses all essential life requirements, providing users
+with everything they need for a convenient and fulfilling daily experience.
+"
+              ghLink="https://github.com/Amir-017/market"
+              demoLink="https://market-gray-sigma.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={cart}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Cart"
+              description=" Using (Html , Css , react , Tailwind , Material Tailwind , React Icons )
+• The cart feature allows users to perform various purchasing operations
+and manage their selections with ease."
+              ghLink="https://github.com/Amir-017/cart"
+              demoLink="https://cart-nine-rouge.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={currency_converter}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Currency Converter"
+              description="• Using (Html , Css , javascript , bootstrap )
+• This project focuses on currency exchange, allowing users to compare
+the value of one currency against another based on their selections,
+providing real-time insights into exchange rates."
+              ghLink="https://github.com/Amir-017/currency_converter"
+              demoLink="https://currency-converter-ochre-eight.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={translator}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Translator"
+              description=" Using (Html , Css , javascript , bootstrap )
+• This project is translated into multiple languages, making it accessible to
+users from all around the world.
+"
+              ghLink="https://github.com/Amir-017/translator"
+              demoLink="https://translator-blush-two.vercel.app/"
             />
           </Col>
         </Row>
