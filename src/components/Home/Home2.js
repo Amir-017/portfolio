@@ -6,7 +6,9 @@ import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { MdOutgoingMail } from "react-icons/md";
 
 import { FaLinkedinIn } from "react-icons/fa";
-
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import ResumeNew from "../Resume/ResumeNew";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -109,6 +111,9 @@ function Home2() {
           </Col>
         </Row>
       </Container>
+      <About />
+      <Projects />
+      <ResumeNew />
     </Container>
   );
 }
