@@ -46,14 +46,14 @@ login and store their information for a quicker and more seamless experience dur
             <ProjectCard
               imgPath={movies}
               isBlog={false}
-              title="Movies"
+              title="Movies & Series"
               description=" Using (Html , Css , Redux , Redux ToolKit , Tailwind , Material Tailwind ,
 React Icons )
 • This project offers a comprehensive collection of movies and series,
 complete with all the details imaginable, ensuring users have access to
 rich information and an enjoyable viewing experience."
-              ghLink="https://github.com/Amir-017/Movies"
-              demoLink="https://movies-two-dun.vercel.app/"
+              ghLink="https://github.com/Amir-017/movies-series"
+              demoLink="https://movies-series-95kb.vercel.app/"
             />
           </Col>
 
