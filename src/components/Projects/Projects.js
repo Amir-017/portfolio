@@ -30,20 +30,6 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={male_fashion}
-              isBlog={false}
-              title="Male Fashion"
-              description=" I used into this project u React, Tailwind , CSS, and Tailwind Elements,
-all website is responsive .This project revolves around selling clothing and everything related to
-personal apparel. It features user registration, allowing customers to
-login and store their information for a quicker and more seamless experience during future visits."
-              ghLink="https://github.com/Amir-017/project-1"
-              demoLink="https://project-1-one-beta.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={movies}
               isBlog={false}
               title="Movies & Series"
@@ -70,7 +56,19 @@ with everything they need for a convenient and fulfilling daily experience.
               demoLink="https://market-gray-sigma.vercel.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={male_fashion}
+              isBlog={false}
+              title="Male Fashion"
+              description=" I used into this project u React, Tailwind , CSS, and Tailwind Elements,
+all website is responsive .This project revolves around selling clothing and everything related to
+personal apparel. It features user registration, allowing customers to
+login and store their information for a quicker and more seamless experience during future visits."
+              ghLink="https://github.com/Amir-017/project-1"
+              demoLink="https://project-1-one-beta.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cart}

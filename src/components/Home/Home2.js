@@ -26,7 +26,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Javascript ,React, and Redux Toolkit.{" "}
+                  Javascript ,React, and Redux Toolkit , Next.{" "}
                 </b>
               </i>
               <br />
@@ -47,10 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple">
-                  {" "}
-                  React.js , Redux toolkit , React Native
-                </b>
+                <b className="purple"> React.js , Redux toolkit , Next</b>
               </i>
             </p>
           </Col>

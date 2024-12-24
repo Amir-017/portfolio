@@ -9,6 +9,7 @@ import {
   TbBrandReactNative,
   TbCircleLetterMFilled,
 } from "react-icons/tb";
+import { RiNextjsFill } from "react-icons/ri";
 
 function Techstack() {
   return (
@@ -45,6 +46,9 @@ function Techstack() {
       </Col>{" "}
       <Col xs={4} md={2} className="tech-icons bg-black">
         &#109;
+      </Col>
+      <Col xs={4} md={2} className="tech-icons bg-black">
+        <RiNextjsFill />
       </Col>
     </Row>
   );
