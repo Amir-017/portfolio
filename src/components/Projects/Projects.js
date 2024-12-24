@@ -34,10 +34,10 @@ function Projects() {
               isBlog={false}
               title="Movies & Series"
               description=" Using (Html , Css , Redux , Redux ToolKit , Tailwind , Material Tailwind ,
-React Icons )
-• This project offers a comprehensive collection of movies and series,
-complete with all the details imaginable, ensuring users have access to
-rich information and an enjoyable viewing experience."
+              React Icons )
+              • This project offers a comprehensive collection of movies and series,
+              complete with all the details imaginable, ensuring users have access to
+              rich information and an enjoyable viewing experience."
               ghLink="https://github.com/Amir-017/movies-series"
               demoLink="https://movies-series-95kb.vercel.app/"
             />
@@ -49,9 +49,9 @@ rich information and an enjoyable viewing experience."
               isBlog={false}
               title="Market"
               description=" Using (Html , Css , react , Tailwind , Material Tailwind , React Icons)
-•This project encompasses all essential life requirements, providing users
-with everything they need for a convenient and fulfilling daily experience.
-"
+              •This project encompasses all essential life requirements, providing users
+              with everything they need for a convenient and fulfilling daily experience.
+              "
               ghLink="https://github.com/Amir-017/market"
               demoLink="https://market-gray-sigma.vercel.app/"
             />
@@ -62,9 +62,9 @@ with everything they need for a convenient and fulfilling daily experience.
               isBlog={false}
               title="Male Fashion"
               description=" I used into this project u React, Tailwind , CSS, and Tailwind Elements,
-all website is responsive .This project revolves around selling clothing and everything related to
-personal apparel. It features user registration, allowing customers to
-login and store their information for a quicker and more seamless experience during future visits."
+              all website is responsive .This project revolves around selling clothing and everything related to
+              personal apparel. It features user registration, allowing customers to
+              login and store their information for a quicker and more seamless experience during future visits."
               ghLink="https://github.com/Amir-017/project-1"
               demoLink="https://project-1-one-beta.vercel.app/"
             />
@@ -75,8 +75,8 @@ login and store their information for a quicker and more seamless experience dur
               isBlog={false}
               title="Cart"
               description=" Using (Html , Css , react , Tailwind , Material Tailwind , React Icons )
-• The cart feature allows users to perform various purchasing operations
-and manage their selections with ease."
+              • The cart feature allows users to perform various purchasing operations
+              and manage their selections with ease."
               ghLink="https://github.com/Amir-017/cart"
               demoLink="https://cart-nine-rouge.vercel.app/"
             />
@@ -88,9 +88,9 @@ and manage their selections with ease."
               isBlog={false}
               title="Currency Converter"
               description="• Using (Html , Css , javascript , bootstrap )
-• This project focuses on currency exchange, allowing users to compare
-the value of one currency against another based on their selections,
-providing real-time insights into exchange rates."
+              • This project focuses on currency exchange, allowing users to compare
+              the value of one currency against another based on their selections,
+              providing real-time insights into exchange rates."
               ghLink="https://github.com/Amir-017/currency_converter"
               demoLink="https://currency-converter-ochre-eight.vercel.app/"
             />
@@ -102,9 +102,9 @@ providing real-time insights into exchange rates."
               isBlog={false}
               title="Translator"
               description=" Using (Html , Css , javascript , bootstrap )
-• This project is translated into multiple languages, making it accessible to
-users from all around the world.
-"
+              • This project is translated into multiple languages, making it accessible to
+              users from all around the world.
+              "
               ghLink="https://github.com/Amir-017/translator"
               demoLink="https://translator-blush-two.vercel.app/"
             />
