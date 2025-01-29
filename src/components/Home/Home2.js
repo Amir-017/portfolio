@@ -10,6 +10,8 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import ResumeNew from "../Resume/ResumeNew";
 function Home2() {
+  console.log("" + "");
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>

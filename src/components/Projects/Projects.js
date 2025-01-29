@@ -38,8 +38,8 @@ function Projects() {
               • This project offers a comprehensive collection of movies and series,
               complete with all the details imaginable, ensuring users have access to
               rich information and an enjoyable viewing experience."
-              ghLink="https://github.com/Amir-017/movies-series"
-              demoLink="https://movies-series-95kb.vercel.app/"
+              ghLink="https://github.com/Amir-017/aflam"
+              demoLink="https://aflam-eta.vercel.app/"
             />
           </Col>
 
