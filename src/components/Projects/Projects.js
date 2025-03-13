@@ -2,19 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import male from "../../Assets/Projects/hero-1.c081bcff664751bf4f02-CjxkYEUr.jpg";
+
 import movies from "../../Assets/Projects/2024-09-28 (3).png";
 import market from "../../Assets/Projects/2024-09-28 (11).png";
 import cart from "../../Assets/Projects/2024-09-28 (12).png";
 import currency_converter from "../../Assets/Projects/2024-09-28 (13).png";
 import translator from "../../Assets/Projects/2024-09-28 (14).png";
 import male_fashion from "../../Assets/Projects/2024-09-28 (15).png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import GPT4 from "../../Assets/Projects/Screenshot 2025-03-13 143411.png";
 
 function Projects() {
   return (
@@ -54,6 +49,18 @@ function Projects() {
               "
               ghLink="https://github.com/Amir-017/market"
               demoLink="https://market-gray-sigma.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={GPT4}
+              isBlog={false}
+              title="GPT-4"
+              description=" Using (Html , Css , next , Tailwind , Material Tailwind , React Icons , Framer Motion)
+              •IT's about GPT-4 is an advanced AI model from OpenAI, renowned for its exceptional natural language understanding and text generation capabilities. It’s widely used in applications like intelligent chatbots and efficient data analysis..
+              "
+              ghLink="https://github.com/Amir-017/GPT-4"
+              demoLink="https://gpt-4-beta-six.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
