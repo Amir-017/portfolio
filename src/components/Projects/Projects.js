@@ -48,7 +48,7 @@ function Projects() {
               with everything they need for a convenient and fulfilling daily experience.
               "
               ghLink="https://github.com/Amir-017/market"
-              demoLink="https://market-gray-sigma.vercel.app/"
+              demoLink="https://market-brown-three.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
