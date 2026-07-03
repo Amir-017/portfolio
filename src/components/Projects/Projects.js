@@ -27,7 +27,7 @@ function Projects() {
             <ProjectCard
               imgPath={movies}
               isBlog={false}
-              title="Movies & Series"
+              title="Movies & Series (frontend)"
               description=" Using (Html , Css , Redux , Redux ToolKit , Tailwind , Material Tailwind ,
               React Icons )
               • This project offers a comprehensive collection of movies and series,
@@ -42,7 +42,7 @@ function Projects() {
             <ProjectCard
               imgPath={market}
               isBlog={false}
-              title="Market"
+              title="Market (frontend)"
               description=" Using (Html , Css , react , Tailwind , Material Tailwind , React Icons)
               •This project encompasses all essential life requirements, providing users
               with everything they need for a convenient and fulfilling daily experience.
@@ -53,17 +53,15 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={GPT4}
+              imgPath={market}
               isBlog={false}
-              title="GPT-4"
-              description=" Using (Html , Css , next , Tailwind , Material Tailwind , React Icons , Framer Motion)
-              •IT's about GPT-4 is an advanced AI model from OpenAI, renowned for its exceptional natural language understanding and text generation capabilities. It’s widely used in applications like intelligent chatbots and efficient data analysis..
-              "
-              ghLink="https://github.com/Amir-017/GPT-4"
-              demoLink="https://gpt-4-beta-six.vercel.app/"
+              title="Market (Full Stack)"
+              description="A modern Full Stack MERN e-commerce application that provides a seamless shopping experience with a responsive and user-friendly interface. The project includes secure JWT authentication, product management, shopping cart, order management, RESTful APIs, and MongoDB database integration. Built with Next.js, React, Tailwind CSS, Material Tailwind, Node.js, Express.js, MongoDB, and deployed using Vercel."
+              ghLink="https://github.com/Amir-017/marketProject_ConnectedWith_BackEnd.git"
+              demoLink="https://market-project-connected-with-back.vercel.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={male_fashion}
               isBlog={false}
@@ -115,7 +113,7 @@ function Projects() {
               ghLink="https://github.com/Amir-017/translator"
               demoLink="https://translator-blush-two.vercel.app/"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

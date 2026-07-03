@@ -20,39 +20,55 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I'm a passionate <b className="purple">Full Stack MERN Developer</b> who
+              enjoys building modern, scalable, and user-friendly web applications.
+              I love transforming ideas into real-world products and continuously
+              learning new technologies to improve my skills.
               <br />
-              <br />I am fluent in classics like
+              <br />
+
+              My core technical skills include
               <i>
                 <b className="purple">
                   {" "}
-                  Javascript ,React, and Redux Toolkit , Next.{" "}
+                  HTML5, CSS3, JavaScript (ES6+), TypeScript, React.js, Next.js,
+                  Redux Toolkit, Tailwind CSS, Bootstrap, Node.js, Express.js,
+                  MongoDB, Mongoose, REST APIs, JWT Authentication, Socket.IO,
+                  Git & GitHub.
                 </b>
               </i>
+
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Application </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with
+
+              I enjoy developing
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Full Stack Web Applications
                 </b>
               </i>
-              &nbsp; like
+              , creating responsive user interfaces, designing secure backend
+              architectures, building RESTful APIs, and integrating databases with
+              modern frontend technologies.
+
+              <br />
+              <br />
+
+              I'm always focused on writing
               <i>
-                <b className="purple"> React.js , Redux toolkit , Next</b>
+                <b className="purple">
+                  {" "}
+                  clean, maintainable, and scalable code
+                </b>
               </i>
+              while following best practices to deliver high-performance web
+              applications with an excellent user experience.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid rounded-2" alt="avatar" />
@@ -98,7 +114,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://amiirahmed017@gmail.com"
+                  href="mailto:amiirwhdan@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
