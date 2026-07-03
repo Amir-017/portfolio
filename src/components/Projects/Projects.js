@@ -61,7 +61,7 @@ function Projects() {
               demoLink="https://market-project-connected-with-back.vercel.app/"
             />
           </Col>
-          {/* <Col md={4} className="project-card">
+           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={male_fashion}
               isBlog={false}
@@ -99,21 +99,8 @@ function Projects() {
               ghLink="https://github.com/Amir-017/currency_converter"
               demoLink="https://currency-converter-ochre-eight.vercel.app/"
             />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={translator}
-              isBlog={false}
-              title="Translator"
-              description=" Using (Html , Css , javascript , bootstrap )
-              • This project is translated into multiple languages, making it accessible to
-              users from all around the world.
-              "
-              ghLink="https://github.com/Amir-017/translator"
-              demoLink="https://translator-blush-two.vercel.app/"
-            />
           </Col> */}
+
         </Row>
       </Container>
     </Container>
