@@ -5,11 +5,6 @@ import Particle from "../Particle";
 
 import movies from "../../Assets/Projects/2024-09-28 (3).png";
 import market from "../../Assets/Projects/2024-09-28 (11).png";
-import cart from "../../Assets/Projects/2024-09-28 (12).png";
-import currency_converter from "../../Assets/Projects/2024-09-28 (13).png";
-import translator from "../../Assets/Projects/2024-09-28 (14).png";
-import male_fashion from "../../Assets/Projects/2024-09-28 (15).png";
-import GPT4 from "../../Assets/Projects/Screenshot 2025-03-13 143411.png";
 
 function Projects() {
   return (

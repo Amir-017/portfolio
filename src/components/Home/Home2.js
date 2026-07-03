@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/WhatsApp Image 2024-09-28 at 15.59.21_024861f2.jpg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { MdOutgoingMail } from "react-icons/md";
 
 import { FaLinkedinIn } from "react-icons/fa";
@@ -10,8 +10,6 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import ResumeNew from "../Resume/ResumeNew";
 function Home2() {
-  console.log("" + "");
-
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>

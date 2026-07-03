@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import img from "../../Assets/te-transparent-noshadows.webp";
 import {
   SiHtml5,
   SiCss3,
@@ -8,7 +7,6 @@ import {
   SiTypescript,
   SiReact,
   SiNextdotjs,
-  SiRedux,
   SiTailwindcss,
   SiBootstrap,
   SiNodedotjs,
@@ -25,8 +23,6 @@ import {
   SiNpm,
   SiAxios,
   SiSwagger,
-  SiCloudinary,
-  SiMulter,
   SiVite,
   SiEslint,
   SiPrettier,
