@@ -12,7 +12,6 @@ import {
   SiNodedotjs,
   SiExpress,
   SiMongodb,
-  SiMongoose,
   SiJsonwebtokens,
   SiSocketdotio,
   SiGit,
